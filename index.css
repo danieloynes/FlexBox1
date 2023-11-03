@@ -1,0 +1,90 @@
+* {
+    font-family: fantasy;
+}
+.container {
+    background-color: royalblue;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+.container2 {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+.container3 {
+    padding: 0px 10px;
+    cursor: pointer;
+  }
+.grønnmeny {
+    display: flex;
+    justify-content: center;
+    border-bottom: lightgrey 2px solid;
+    color: rgb(90, 88, 88);
+}
+.grønnmeny2 {
+    display: flex;
+    list-style: none;
+  }
+.grønnmeny3{
+    padding: 15px 30px;
+    cursor: pointer;
+}
+.grønnmeny3:hover {
+    background-color: darkseagreen;
+    border-bottom: rgb(113, 146, 113) 4px solid;
+}
+.Mepal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 7px;
+}
+.Mepal1 {
+    font-size: 20px;
+}
+input.Mepal7 {
+    background-color: rgb(41, 40, 40);
+    color: white;
+    border: solid 1px gray;
+}
+.left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.left div{
+    padding-left: 10px;
+    cursor: pointer;
+}
+.left div:hover{
+    padding-left: 10px;
+    font-weight: bold;
+}
+.ambatubas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    color: white;
+    padding: 7px;
+}
+.ambatutext {
+    display: flex;
+    list-style: none;
+    padding: 15px;
+
+}
+.ambatutext *{
+    padding-left: 10px;
+}
+.ambatutext:hover div {
+    cursor: pointer;
+    font-weight: bold;
+}
+
